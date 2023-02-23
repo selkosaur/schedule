@@ -1,0 +1,30 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@100;200;300;400;500;600;800;900&display=swap);
+:root{
+  --fc-now-indicator-color: tomato;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro',Trebuchet MS, Helvetica Neue, Helvetica, sans-serif;
+  font-size: 15px;
+  text-transform: lowercase;
+}
+
+#calendar {
+  max-width: 1100px;
+  margin: 40px auto;
+}
+
+.fc-toolbar-title{
+  font-family: 'glacial_indifferenceregular',sans-serif;
+}
+.fc-col-header-cell.fc-day {
+  color: #696d7d;
+}
+
+.fc-timegrid-slot.fc-timegrid-slot-label,.fc-timegrid-axis-cushion{
+  color: dimgray;
+  font-family: 'glacial_indifferenceregular',sans-serif;
+  font-size: 12px;
+}
