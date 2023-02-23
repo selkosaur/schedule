@@ -15,14 +15,14 @@ document.addEventListener("DOMContentLoaded", function () {
           let thisview = views.indexOf(calendar.view.type);
 
           let nextview = views[thisview + 1];
-          alert(
+          /* alert(
             "The view's type is " +
               calendar.view.type +
               " thisview: " +
               thisview +
               " views.length: " +
               views.length
-          );
+          ); */
           if (thisview == views.length - 1) {
             calendar.changeView(views[0]);
           } else if (thisview == -1) {
